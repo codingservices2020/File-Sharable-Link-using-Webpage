@@ -12,7 +12,7 @@ def home():
 def ping_self():
     while True:
         try:
-            # requests.get("https://file-sharable-link.onrender.com")       # Ping your actual Render URL
+            # requests.get("https://file-sharable-link-webpage.onrender.com")       # Ping your actual Render URL
             app.run(host='0.0.0.0', port=8080)
         except:
             pass
