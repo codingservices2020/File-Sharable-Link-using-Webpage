@@ -2,10 +2,10 @@ import os
 import requests
 from flask import Flask, render_template, request, redirect, url_for, jsonify
 from pcloud_utils import create_folder, upload_file, generate_share_link
-# from keep_alive import keep_alive
-# keep_alive()
-from dotenv import load_dotenv
-load_dotenv()
+from keep_alive import keep_alive
+keep_alive()
+# from dotenv import load_dotenv
+# load_dotenv()
 
 app = Flask(__name__)
 
