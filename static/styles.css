@@ -1,0 +1,334 @@
+/* Base styles */
+body, p, div, span, th, td {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  color: #777;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+a.headerlink {
+    color: #787878;
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+/* Layout styles */
+.container {
+  width: 900px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+
+.header {
+  background-color: #fff;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo {
+  color: #0066cc;
+  float: left;
+  margin-right: 20px;
+}
+
+.login-form {
+  float: right;
+}
+
+.menu {
+  clear: both;
+  padding: 5px 0;
+  border-bottom: 1px solid #ddd;
+  background-color: #f7f7f7;
+}
+
+.clear {
+  clear: both;
+}
+
+/* Form elements */
+.loginput {
+  width: 80px;
+  font-size: 11px;
+  color: #777;
+  padding: 2px;
+  text-align: center;
+}
+
+.submitbutton {
+  font-size: 11px;
+  color: #fff;
+  background-color: #0076f4;
+  font-weight: bold;
+  border: 1px solid #004692;
+  height: 19px;
+}
+
+.input {
+  padding: 5px;
+  border: 1px solid #ccc;
+  width: 300px;
+  background-color: #fff
+}
+
+.uploadbutton {
+  font-size: 11px;
+  color: #fff;
+  background-color: #0076f4;
+  font-weight: bold;
+  border: 1px solid #004692;
+  padding: 2px 5px;
+}
+
+.uploadbutton:hover {
+  background-color: #0055aa;
+}
+
+.submitButtonLB {
+  font-size: 11px;
+  width: 70px;
+  color: #fff;
+  background-color: #88c5f0;
+  border-color: #51a9e9;
+  font-weight: bold;
+}
+
+/* Links */
+.headerlink {
+  color: #0066cc;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.headerlink:hover {
+  text-decoration: underline;
+}
+
+.share-link {
+  color: #0066cc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.share-link:hover {
+  text-decoration: underline;
+}
+
+/* Upload container */
+.upload-container {
+  background-color: #fff;
+  border: 1px #ddd;
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Progress bar */
+.ubrBar0 {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  height: 20px;
+  position: relative;
+}
+
+.ubrBar1 {
+  background-color: #e0e0e0;
+  height: 100%;
+}
+
+.ubrBar2 {
+  background-color: #0066cc;
+  height: 100%;
+  width: 0%;
+}
+
+.ubrUploadData {
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  margin-top: 10px;
+}
+
+.ubrUploadDataLabel {
+  font-weight: bold;
+  padding-right: 10px;
+  text-align: right;
+}
+
+.ubrUploadDataInfo {
+  text-align: left;
+}
+
+.ubrUploadDataLabelEnd {
+  font-weight: bold;
+  padding-right: 10px;
+  text-align: right;
+}
+
+.ubrUploadDataInfoEnd {
+  text-align: left;
+}
+
+/* Rules container */
+.rules-container {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.rules-content {
+  line-height: 1.6;
+  padding: 0 20px;
+}
+
+.rules-content h2 {
+  color: #0066cc;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.rules-content ol {
+  padding-left: 20px;
+}
+
+.rules-content li {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  color: #777;
+}
+
+/* Success page */
+.success-icon {
+  font-size: 48px;
+  color: #4CAF50;
+  margin-bottom: 20px;
+}
+
+.share-link-box {
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin: 20px auto;
+  width: 80%;
+  word-break: break-all;
+}
+
+.action-buttons {
+  margin: 20px 0;
+}
+
+.action-button {
+  background-color: #0066cc;
+  color: white;
+  border: none;
+  padding: 8px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.action-button:hover {
+  background-color: #0055aa;
+}
+
+.btn-secondary {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  color: #333;
+}
+
+.btn-secondary:hover {
+  background-color: #e0e0e0;
+}
+
+/* Utility classes */
+.smalltxt {
+  font-size: 9px;
+  color: #666;
+}
+
+.bdot {
+  background-color: #ddd;
+  height: 1px;
+}
+
+.footer {
+  text-align: center;
+  padding: 10px;
+  font-size: 12px;
+  color: #666;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.lightblue {
+  color: #0066cc;
+}
+
+.error-message {
+  color: #cc0000;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.file-info {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px #ddd;
+  text-align: left;
+}
+
+/* Page title */
+h1.pageTitle, h2.pageTitle {
+  font-size: 20px;
+  line-height: 20px;
+  color: #3078d8;
+  font-weight: normal;
+  font-family: Arial;
+  border-bottom: 1px dotted #ddd;
+  padding: 0;
+  margin: 0;
+}
+
+/* Horizontal rule */
+hr {
+  border: 0;
+  border-top: 1px solid #eee;
+  height: 1px;
+  background-color: #fff;
+}
+
+/* Text styling */
+b {
+  font-weight: bolder;
+}
+
+ /* CSS for the loader in your styles.css file */
+.loader-circle {
+  font-size: 2rem;
+  color: #0066cc;
+  margin: 10px 0;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+#loader p {
+  color: #666;
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
