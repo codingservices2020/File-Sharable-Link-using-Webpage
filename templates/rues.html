@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1024">
+  <title>Upload & Share File - Rules</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="logo">
+        <h1>Upload & Share File</h1>
+      </div>
+      <div class="clear"></div>
+    </div>
+
+    <div class="menu">
+      <a href="{{ url_for('index') }}" class="headerlink">Upload</a>&nbsp; | &nbsp;
+      <a href="#" class="headerlink">Register</a>&nbsp; | &nbsp;
+      <a href="#" class="headerlink">FAQ</a>&nbsp; | &nbsp;
+      <a href="#" class="headerlink">Report files</a>&nbsp; | &nbsp;
+      <a href="#" class="headerlink">Feedback</a>&nbsp; | &nbsp;
+    </div>
+
+    <div class="rules-container">
+        <h1 class="pageTitle">Rules</h1>
+      <div class="rules-content">
+        <ol>
+          <li>Forbidden are files containing pornography, childpornography or racist messages.</li>
+          <li>It is forbidden to upload other illegal files and making copyrighted content (and also content protected with author rights laws) available to others (including but not limited to: music, files, films, books).</li>
+          <li>Secure File Sharing retains rights to delete inappropriate content without prior notice.</li>
+          <li>Registered user's files will be deleted automatically after 120 days of last download.</li>
+          <li>Unregistered user's files will be deleted automatically after 50 days of last download.</li>
+          <li>Secure File Sharing retains rights to change these rules without prior notice.</li>
+        </ol>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div style="padding-left:280px">
+        <table cellpadding="0" cellspacing="0" border="0">
+          <tr>
+            <td valign="middle" class="lightblue bold">NB! We are not responsible for files uploaded here!</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
