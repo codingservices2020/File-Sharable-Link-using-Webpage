@@ -2,7 +2,6 @@ import os
 import requests
 from pcloud import PyCloud
 from dotenv import load_dotenv
-
 load_dotenv()
 
 PCLOUD_EMAIL = os.getenv("PCLOUD_EMAIL")
@@ -89,3 +88,4 @@ def delete_file(file_id):
         print(f"🗑️ File deleted: fileid={file_id}")
     else:
         print(f"❌ Failed to delete: {resp}")
+
